@@ -1,0 +1,103 @@
+
+
+
+.jumbotron {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+/*  padding-top: 50%;
+  text-align: center;
+}*/
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+.no-margin{
+  margin:0;
+  padding:0;
+  display: block;
+}
+#profile-pic {
+  max-width:35rem;
+  display:block;
+  margin: 0 auto;
+  padding-top:3rem;
+}
+/*.container-fluid{
+  padding:0;
+}*/
+.about-paragraph {
+  padding-top: 4rem;
+  padding-left:4rem;
+  font-size: 1.8rem;
+}
+
+.extra-padding {
+  padding-top:3rem;
+}
+
+#graphic{
+  background-color: #355178;
+  height:50vh;
+
+}
+ #photo{
+   background-color: #ef2c30;
+   height:50vh;
+ }
+ #javascript {
+   background-color: #f8864a;
+   height:50vh;
+ }
+
+
+
+ #About{
+   background-color: #fdf1e5;
+
+ }
+
+
+ #Contact {
+   background-color:#fdf1e5;
+   padding: 3rem;
+ }
+
+ #footer {
+   padding:3rem;
+   min-height:10rem ;
+ }
+.portfolio-image {
+  margin: 0;
+}
+ .portfolio-image:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.btn-default {
+  background-color: #333333;
+}
+.btn-default:hover {
+  background-color: #333333;
+  opacity: 0.75;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+.fa{
+  font-size: 10px;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
